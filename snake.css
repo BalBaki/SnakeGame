@@ -1,0 +1,24 @@
+#gameArea{
+    width: 502px; 
+    height : 502px; 
+    background-color:blue;
+    position: relative;
+}
+
+#snake-body{
+    width: 25px;
+    height : 25px; 
+    background-color:red;
+    position: absolute;
+    left: 226px;
+    top: 226px;
+    z-index: 2;
+}
+
+.bait{
+    width: 25px;
+    height : 25px; 
+    background-color:black;
+    position: absolute;
+    z-index: 1;
+}
